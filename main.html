@@ -1,57 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refugees in Education</title>
+  <title>Refugees Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
     }
     header {
       background-color: #333;
-      color: #fff;
       padding: 20px;
       text-align: center;
     }
-    nav ul {
-      list-style: none;
+    h1 {
+      color: #fff;
       margin: 0;
-      padding: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
     }
-    nav ul li {
-      display: inline-block;
-      margin-right: 10px;
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
     }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
+    p {
+      line-height: 1.6;
     }
-    section {
-      padding: 20px;
-    }
-    .about-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .about-container p {
-      max-width: 600px;
-      text-align: center;
-    }
-    .call-to-action {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .call-to-action a {
-      display: inline-block;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 20px;
+    img {
+      max-width: 100%;
+      height: auto;
       border-radius: 5px;
+      margin-bottom: 20px;
     }
     footer {
       background-color: #333;
@@ -59,56 +41,101 @@
       padding: 20px;
       text-align: center;
     }
+    h2 {
+      color: #333;
+      margin-top: 40px;
+      font-size: 24px;
+    }
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    li {
+      line-height: 1.6;
+    }
+    .story {
+      margin-bottom: 40px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .story h3 {
+      margin-top: 0;
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .story p {
+      margin-bottom: 0;
+    }
+    .help-list {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    .help-list li {
+      margin-bottom: 10px;
+    }
+    .help-list li:before {
+      content: "\\2022";
+      color: #333;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      font-weight: bold;
+    }
+    .donate-button {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .donate-button:hover {
+      background-color: #555;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Refugees in Education</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#call-to-action">Get Involved</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Refugees Website</h1>
   </header>
-  
-  <section id="about">
-    <div class="about-container">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, justo id pellentesque egestas, mauris lectus malesuada tortor, eget dignissim velit nunc quis nulla. Vivamus nec elit fringilla, eleifend neque in, eleifend est. Phasellus id finibus mi. Praesent vitae condimentum ligula, at imperdiet libero.
-      </p>
+  <main>
+    <h2>About Refugees</h2>
+    <p>Refugees are individuals who have been forced to leave their home countries due to persecution, conflict, or violence. They seek protection and safety in other countries and are unable or unwilling to return to their home countries due to fear of persecution.</p>
+    <h2>Reasons for Displacement</h2>
+    <p>Refugees can be displaced for various reasons, including:</p>
+    <ul>
+      <li>War and armed conflict</li>
+      <li>Political instability</li>
+      <li>Religious or ethnic persecution</li>
+      <li>Natural disasters</li>
+    </ul>
+    <h2>Refugee Support and Assistance</h2>
+    <p>Many organizations and governments provide support and assistance to refugees, offering:</p>
+    <ul>
+      <li>Shelter and accommodation</li>
+      <li>Food and water</li>
+      <li>Healthcare</li>
+      <li>Educational opportunities</li>
+      <li>Legal services</li>
+    </ul>
+    <h2>Stories of Hope</h2>
+    <div class="story">
+      <h3>Story 1: [Title of the Story]</h3>
+      <p>[Description of the story]</p>
     </div>
-  </section>
-  
-  <section id="call-to-action">
-    <div class="call-to-action">
-      <h2>Get Involved</h2>
-      <p>
-        Help make a difference in the lives of refugee students. Join our cause and support education for all.
-      </p>
-      <a href="donate.html">Donate</a>
-      <a href="volunteer.html">Volunteer</a>
+    <div class="story">
+      <h3>Story 2: [Title of the Story]</h3>
+      <p>[Description of the story]</p>
     </div>
-  </section>
-  
-  <section id="contact">
-    <div class="contact-container">
-      <h2>Contact Us</h2>
-      <p>
-        Have questions or want to get in touch? Fill out the form below and we'll get back to you.
-      </p>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
+    <div class="story">
+      <h3>Story 3: [Title of the Story]</h3>
+      <p>[Description of the story]</p>
     </div>
-  </section>
-  
-  <footer>
-    <p>&copy; 2024 Refugees in Education. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    <h2>How You Can Help</h2>
+
